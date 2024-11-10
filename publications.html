@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Scientist Portfolio</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0000007d;
+            color: #f8f9fa;
+        }
+
+        .sidebar {
+            width: 200px;
+            padding-left: 15px;
+            padding-right: 5px;
+            height: 100%;
+            position: fixed;
+            background-color: rgb(17, 17, 73);
+            color: white;
+            padding-top: 20px;
+        }
+
+        .sidebar a {
+            display: block;
+            color: white;
+            padding-left: 5px;
+            padding-right: 5px;
+            padding-top: 18px;
+            font-size: 18px;
+            font-family: sans-serif;
+        }
+
+        .sidebar a:hover {
+            background-color: #16416c;
+            padding: 10%; 
+            font-weight: bold;
+            font-size: 18px;
+            text-decoration: none;
+        }
+
+        .content {
+            margin-left: 260px;
+            padding: 20px;
+        }
+
+        .dashboard {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 30px;
+        }
+
+        .card {
+            margin: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            background-color: #2b2b2b;
+        }
+
+        .card-title {
+            font-weight: bold;
+            color: #f8f9fa;
+        }
+
+        .header {
+            background-color: #343a40;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #343a40;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="sidebar">
+        <img src="CV_image.jpg" alt="Profile Picture" style="width: 90%; border-radius: 15px; margin-bottom: 10px; ">
+        <div class="profile-name" style="text-align: left; font-weight: bold; font-size: 26px">Cedrus Dang</div>
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="publications.html">Publications</a>
+        <a href="resume.html">Resume</a>
+        <a href="https://www.linkedin.com/in/cedrusdang/">Linkedin</a>
+    </div>
+
+    <div class="content">
+        <header class="header">
+            <h1 style="font-weight: boldl; font-size: 40px; font-family: sans-serif;">AI Engineer Portfolio</h1>
+            <p style="font-weight: boldl; font-size: 30px; font-family: sans-serif;">Dashboard</p>
+        </header>
+
+        <section class="dashboard">
+            <div class="card text-center" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Projects</h5>
+                    <p class="card-text">Discover the innovative AI projects I've developed, covering various domains including computer vision, natural language processing, and machine learning.</p>
+                    <a href="projects.html" class="btn btn-primary">View Projects</a>
+                </div>
+            </div>
+            <div class="card text-center" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Publications</h5>
+                    <p class="card-text">Explore my research papers and contributions to the field of artificial intelligence.</p>
+                    <a href="publications.html" class="btn btn-primary">View Publications</a>
+                </div>
+            </div>
+            <div class="card text-center" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Skills Dashboard</h5>
+                    <p class="card-text">Get an overview of my skills and competencies, from machine learning frameworks to programming languages.</p>
+                    <a href="skills.html" class="btn btn-primary">View Skills</a>
+                </div>
+            </div>
+            <div class="card text-center" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Contact Me</h5>
+                    <p class="card-text">Interested in collaborating? Get in touch with me for exciting AI research or consulting opportunities.</p>
+                    <a href="contact.html" class="btn btn-primary">Contact</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        &copy; 2024 Cedrus Dang - AI Scientist Portfolio. All Rights Reserved.
+    </footer>
+</body>
+
+</html>
